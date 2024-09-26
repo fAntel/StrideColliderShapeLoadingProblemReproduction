@@ -1,0 +1,11 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+VisualStudioVersion = 16.0.0.0
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColliderShapeLoadingProblemReproduction.Windows", "ColliderShapeLoadingProblemReproduction.Windows\ColliderShapeLoadingProblemReproduction.Windows.csproj", "{79653BE2-D457-45C8-A00E-6061A09A8C59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColliderShapeLoadingProblemReproduction", "ColliderShapeLoadingProblemReproduction\ColliderShapeLoadingProblemReproduction.csproj", "{B7CF78EB-C81B-4372-A4F8-C846491A8200}"
+EndProject
+Global
+EndGlobal

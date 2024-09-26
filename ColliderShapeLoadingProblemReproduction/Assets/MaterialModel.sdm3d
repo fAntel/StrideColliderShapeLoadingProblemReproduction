@@ -1,0 +1,15 @@
+!Model
+Id: a1ba33a0-11c1-473c-969a-d0fe9c340b53
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../Resources/MaterialModel.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    a7a7ca6eaf2f7e98195cb1f71f38cf97:
+        Name: MaterialA
+        MaterialInstance:
+            Material: 495a4db3-88ab-4242-8e47-117b0a04d331:Sphere Material
+Modifiers: {}
+~SourceHashes:
+    214d2cddbca8de98221e0a23fccfe102~../Resources/MaterialModel.fbx: 2af68f6f63000a4c8b6f9af14e7d0962
