@@ -11,7 +11,6 @@ Hierarchy:
         - ref!! aff57e8d-d234-4c37-be46-a8584a09cbef
         - ref!! ddbbe0e8-6a61-4127-bdef-92411cd2aaaa
         - ref!! 72e030be-e517-4224-8e5e-a20505946e29
-        - ref!! f3764ee2-e00c-4cd0-9242-9fe063c55db9
         - ref!! 2c154168-c9f4-4b2b-9bd3-1618a5717f20
     Parts:
         -   Entity:
@@ -26,7 +25,6 @@ Hierarchy:
                         Children: {}
                     3eaf418da627734fa70113411cd0dae6: !ColliderShapeLoadingProblemReproduction.AddLoadedEntity,ColliderShapeLoadingProblemReproduction
                         Id: ff5dc2af-b5f4-4fa8-991c-0489e0303b1c
-                        Camera: ref!! 9e84173e-1e1f-43cd-9416-fa5cf59cd7ed
         -   Entity:
                 Id: 55dd82cf-7130-424b-9acd-2d6a21f664e1
                 Name: Camera
@@ -133,31 +131,3 @@ Hierarchy:
                             Color: !ColorRgbProvider
                                 Value: {R: 0.64705884, G: 0.7882353, B: 0.9411765}
                         Intensity: 0.1
-        -   Entity:
-                Id: f3764ee2-e00c-4cd0-9242-9fe063c55db9
-                Name: M
-                Components:
-                    2be2f1c77362a595c7ff4c9a6a97eac1: !TransformComponent
-                        Id: 03263e3f-d8c8-45cd-820a-e3ad9cc09e2c
-                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    d78ada162cae6c3f22bf91baf358542d: !ModelComponent
-                        Id: 6aab1353-4a42-4ef3-a0ec-1ba4d32664d8
-                        Model: a1ba33a0-11c1-473c-969a-d0fe9c340b53:MaterialModel
-                        Materials: {}
-                    a43d1390d697c6c507c415a4d20f6565: !StaticColliderComponent
-                        Id: 13139c1b-2ad0-4cd1-b375-54e599b896d1
-                        CollisionGroup: CustomFilter1
-                        CanSleep: false
-                        Restitution: 0.0
-                        Friction: 0.5
-                        RollingFriction: 0.0
-                        CcdMotionThreshold: 0.0
-                        CcdSweptSphereRadius: 0.0
-                        IsTrigger: false
-                        AlwaysUpdateNaviMeshCache: false
-                        ColliderShapes:
-                            f46472e71ff4d0dbfd286d8262286dd0: !ColliderShapeAssetDesc
-                                Shape: 688d8528-6e80-4aa2-ba54-f66d7b94aef9:ColliderHull

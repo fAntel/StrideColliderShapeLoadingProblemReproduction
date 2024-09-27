@@ -1,11 +1,28 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 16
-VisualStudioVersion = 16.0.0.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 16.0.0.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColliderShapeLoadingProblemReproduction.Windows", "ColliderShapeLoadingProblemReproduction.Windows\ColliderShapeLoadingProblemReproduction.Windows.csproj", "{79653BE2-D457-45C8-A00E-6061A09A8C59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColliderShapeLoadingProblemReproduction.Windows", "ColliderShapeLoadingProblemReproduction.Windows\ColliderShapeLoadingProblemReproduction.Windows.csproj", "{79653BE2-D457-45C8-A00E-6061A09A8C59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColliderShapeLoadingProblemReproduction", "ColliderShapeLoadingProblemReproduction\ColliderShapeLoadingProblemReproduction.csproj", "{B7CF78EB-C81B-4372-A4F8-C846491A8200}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColliderShapeLoadingProblemReproduction", "ColliderShapeLoadingProblemReproduction\ColliderShapeLoadingProblemReproduction.csproj", "{B7CF78EB-C81B-4372-A4F8-C846491A8200}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79653BE2-D457-45C8-A00E-6061A09A8C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79653BE2-D457-45C8-A00E-6061A09A8C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79653BE2-D457-45C8-A00E-6061A09A8C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79653BE2-D457-45C8-A00E-6061A09A8C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7CF78EB-C81B-4372-A4F8-C846491A8200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7CF78EB-C81B-4372-A4F8-C846491A8200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7CF78EB-C81B-4372-A4F8-C846491A8200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7CF78EB-C81B-4372-A4F8-C846491A8200}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 EndGlobal
